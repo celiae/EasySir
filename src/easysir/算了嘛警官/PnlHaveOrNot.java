@@ -3,7 +3,7 @@
  * 2026 All rights reserved.
  */
 
-package 算了嘛警官;
+package easysir.算了嘛警官;
 
 import java.awt.CardLayout;
 import java.awt.Color;
@@ -46,8 +46,8 @@ public class PnlHaveOrNot extends JPanel {
 			public void actionPerformed(ActionEvent e) {
 				int random = new Random().nextInt(3) + 1;
 				int random2 = new Random().nextInt(5) + 1;
-				AudioUtil.playAudio("audio/有" + random + ".wav", "audio/你出示驾照" + random2 + ".wav",
-						cardLayout, panel, "showAgain");
+				AudioUtil.playAudio("easysir/audio/有" + random + ".wav",
+						"easysir/audio/你出示驾照" + random2 + ".wav", cardLayout, panel, "showAgain");
 			}
 		});
 		btnNewButton.setFont(new Font("宋体", Font.PLAIN, 24));

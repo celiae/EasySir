@@ -3,7 +3,7 @@
  * 2026 All rights reserved.
  */
 
-package 算了嘛警官;
+package easysir.算了嘛警官;
 
 import java.awt.CardLayout;
 import java.awt.Panel;

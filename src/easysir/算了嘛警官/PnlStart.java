@@ -3,7 +3,7 @@
  * 2026 All rights reserved.
  */
 
-package 算了嘛警官;
+package easysir.算了嘛警官;
 
 import java.awt.CardLayout;
 import java.awt.Color;
@@ -33,8 +33,8 @@ public class PnlStart extends JPanel {
 		btnStart.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				AudioUtil.playAudio("audio/我错了.wav", "audio/你出示驾照5.wav", cardLayout, panel,
-						"showLisence");
+				AudioUtil.playAudio("easysir/audio/我错了.wav", "easysir/audio/你出示驾照5.wav", cardLayout,
+						panel, "showLisence");
 			}
 		});
 		setLayout(null);

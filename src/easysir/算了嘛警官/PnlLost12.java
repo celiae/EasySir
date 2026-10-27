@@ -3,7 +3,7 @@
  * 2026 All rights reserved.
  */
 
-package 算了嘛警官;
+package easysir.算了嘛警官;
 
 import java.awt.CardLayout;
 import java.awt.Color;
@@ -50,7 +50,7 @@ public class PnlLost12 extends JPanel {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				cardLayout.first(panel);
-				AudioUtil.playAudio("audio/太聪明了.wav");
+				AudioUtil.playAudio("easysir/audio/太聪明了.wav");
 			}
 		});
 		btnNewButton.setFont(new Font("宋体", Font.PLAIN, 30));
